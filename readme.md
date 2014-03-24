@@ -5,7 +5,7 @@ This is a sublime text 2 plugin that pastes your selected text to <http://pasteb
 
 
 #How to install?
-1. Create directory 'pastebinplugin' in Packages directory. (find Packages directory with sublime.packages_path() in sublime console)
+1. Create directory 'pastebinplugin' in Packages directory. (find Packages directory with ```sublime.packages_path()``` in sublime console)
 
 2. get the pastebin egg from either [pypi](https://pypi.python.org/pypi/Pastebin) or install it with pip and look for the egg in site-packages directory in main python directory. copy this file to the 'pastebinplugin' directory
 
