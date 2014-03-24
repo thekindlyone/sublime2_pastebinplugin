@@ -1,3 +1,9 @@
+#What is it?
+This is a sublime text 2 plugin that pastes your selected text to <http://pastebin.com/> and opens it in webbrowser.
+
+
+
+
 #How to install?
 1. Create directory 'pastebinplugin' in Packages directory. (find Packages directory with sublime.packages_path() in sublime console)
 

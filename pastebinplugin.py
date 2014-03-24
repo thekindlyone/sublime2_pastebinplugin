@@ -11,7 +11,5 @@ class pastepluginCommand(sublime_plugin.TextCommand):
             paste_code= '\n'.join([self.view.substr(selection) for selection in self.view.sel()])
             x=api()
             dev_key='your developer key'
-            url=x.paste(dev_key, paste_code, 
-                   paste_format = 'Python'
-                   )
+            url=x.paste(dev_key, paste_code)
             webbrowser.open(url)
